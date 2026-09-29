@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+# Secrets & local config
+.env
+*.pem
+.aws/
+# MLflow / spike output
+mlruns/
+mlartifacts/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Claude Code local settings
+.claude/settings.local.json
